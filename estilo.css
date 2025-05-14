@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(156, 199, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+
+.tituloHobbie {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tituloViagem {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tPais {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.tImagem {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    margin-left: 40px;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 40px;
+}
+
+table td{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 5px;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+
+#botao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border:none
+}
+
+.favoritos {
+    display:flex;
+    gap: 10px;
+}
